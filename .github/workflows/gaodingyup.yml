@@ -2,9 +2,9 @@ name: gaodingyup
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '30 5/6 * * *'
 
-jobs:  # 846
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,18 +12,16 @@ jobs:  # 846
       - uses: actions/checkout@v4
       - name: gaodingyup
         env:
-          cwmtk57945: ${{ secrets.cwmtk57945 }}
+          ohg93279: ${{ secrets.ohg93279 }}
         run: |
-          echo $cwmtk57945 | jq -r .nyzv41781 | /bin/bash
-          echo $x3141 | jq -r .b0261 | /bin/bash
-          echo $o6815 | jq -r .c67600 | /bin/bash
-          echo $uew032 | jq -r .ndknu1 | /bin/bash
-          echo $np78 | jq -r .mjppu19158 | /bin/bash
-          echo $llz21027 | jq -r .i3 | /bin/bash
-          echo $h1 | jq -r .s7887 | /bin/bash
-          echo $bdyx860 | jq -r .zt031 | /bin/bash
-          echo $fa423 | jq -r .w81 | /bin/bash
-          echo $fub503 | jq -r .fwsq8 | /bin/bash
-          echo $fn4537 | jq -r .kze3 | /bin/bash
-          echo $aoq15085 | jq -r .ex46115 | /bin/bash
+          echo $ohg93279 | jq -r .uzz9065 | /bin/bash
+          echo $abiu9258 | jq -r .beiz68389 | /bin/bash
+          echo $rrj47 | jq -r .fmf1 | /bin/bash
+          echo $gk9409 | jq -r .mye92891 | /bin/bash
+          echo $um60 | jq -r .fvy81988 | /bin/bash
+          echo $m69 | jq -r .du25 | /bin/bash
+          echo $wm65 | jq -r .gmc5716 | /bin/bash
+          echo $f6247 | jq -r .s6 | /bin/bash
+          echo $o30 | jq -r .lhaq4360 | /bin/bash
+          echo $jkye2350 | jq -r .fkh6196 | /bin/bash
 
